@@ -126,9 +126,6 @@ img {
 
 .hero {
   background: #2e2f42;
-}
-
-.hero-container {
   padding: 188px 0;
 }
 
@@ -157,6 +154,7 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   border: none;
+  min-width: 169px;
 }
 
 .hero-button:hover,
@@ -244,7 +242,7 @@ img {
 }
 
 .team-item-text-wrapper {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-subtitle {
@@ -310,10 +308,12 @@ img {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
-.footer-container {
-  padding: 100px 0;
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
@@ -326,7 +326,6 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
 
 /* #endregion */
